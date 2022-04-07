@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ImgsGroup from '../../components/ImgsGroup';
+import ImgsGroup2 from '../../components/ImgsGroup2';
 
 export default function Home() {
   return (
@@ -8,11 +9,19 @@ export default function Home() {
         <img src="/banner.svg" alt='Banner Mama Ativa' className='banner'/> 
       </Link>
       <div className="container2">
-        <h2 className='info-home'>Você sabia que 1L de leite pode <br/> alimentar até 10 recém-nascidos?</h2>
+        <h2 className='info-home'>Aqui tem lugar para todo mundo <br/> que se preocupa com o próximo!</h2>
       </div>
       <div>
         <ImgsGroup/>
       </div>
+
+      <div>
+        <h2 className='info-home'>Aqui também tem lugar para<br/> quem entende a importância <br/> de um consumo consciente.</h2> 
+      </div>
+      <div>
+        <ImgsGroup2/>
+      </div>
+
     </div>
   );
 }
