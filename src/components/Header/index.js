@@ -12,7 +12,5 @@ export default function Header(){
       <Link className='menu-options'> Contato </Link>
       <Link className='register'> <button className='register-button'>Login</button> </Link>
     </header>
-  
-    
   );
 }
