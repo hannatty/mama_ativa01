@@ -9,7 +9,7 @@ export default function ImgsGroup(){
         <h2 className="picture-text">
           Sabe aquela roupa que tá novinha<br/> e não cabe mais na tua criança?<br/>
           Aquele brinquedo bonzinho <br/> que ela já nem olha?<br/><br/>
-          <Link to="/">Cadastra ele no Mama Ativa!</Link>
+          <Link to="/Cadastro">Cadastra ele no Mama Ativa!</Link>
           </h2>
         <img src="/fotoCrianca.png" alt='Mulher com bebê' className='img-config'/> 
     </div>
