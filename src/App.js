@@ -1,19 +1,13 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './Login';
-import Teste from './Teste';
+
+import './style.css';
+import Routes from './routes';
 
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-         <Routes>
-             <Route path='/'  element={<Login/>}/>
-             <Route path='/teste'  element={<Teste/>}/>
-         </Routes>
-      </BrowserRouter>
+    <div className="app">
+      <Routes/>
     </div>
   );
 }
 
-export default App;
