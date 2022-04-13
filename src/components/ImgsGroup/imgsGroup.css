@@ -1,3 +1,7 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .container{
 text-align: center;
 max-height: 500px;
@@ -19,10 +23,22 @@ padding-bottom: 20px;
 }
 
 .subtitle-config{
-  font-family: 'Quicksand', sans-serif;
   padding-top: 20px;
   font-size: 40px;
   margin-top: 20px;
   font-size: 25px;
   color: #000;
+}
+
+.link_cadastro {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+
+  transition-duration: 0.5s;
+}
+
+a.link_cadastro:hover {
+  font-size: 26px; 
+  color:#000000;
 }
