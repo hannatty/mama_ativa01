@@ -11,9 +11,9 @@ export default function Footer(){
         <Link className='link-footer' to="/">Contato</Link>
       </div> 
       <div>
-        <Link to="/"><img src="facebook.png" alt="logo facebook" className='media-icon'/></Link>
-        <Link to="/"><img src="instagram.png" alt="logo instagram" className='media-icon'/></Link>
-        <Link to="/"><img src="whatsapp.png" alt="logo whatsapp" className='media-icon'/></Link>
+        <Link to="/" className='config-icon'><img src="facebook.png" alt="logo facebook" className='media-icon'/></Link>
+        <Link to="/" className='config-icon'><img src="instagram.png" alt="logo instagram" className='media-icon'/></Link>
+        <Link to="/" className='config-icon'><img src="whatsapp.png" alt="logo whatsapp" className='media-icon'/></Link>
       </div>
     </footer>
 

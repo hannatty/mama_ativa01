@@ -2,7 +2,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.container{
+.container1{
 text-align: center;
 max-height: 500px;
 background-color:#C7CBF3 ;
@@ -40,5 +40,5 @@ padding-bottom: 20px;
 
 a.link_cadastro:hover {
   font-size: 26px; 
-  color:#000000;
+  color:#000;
 }
